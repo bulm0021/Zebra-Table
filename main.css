@@ -1,0 +1,56 @@
+table
+{
+	border-collapse: collapse;
+	overflow: auto;
+	width: 100%;
+}
+table tr
+{
+	overflow: auto;
+	
+}
+
+table td
+{
+	border: solid black;
+	overflow: auto;
+	text-align: center;
+}
+/*
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even)
+{
+    background-color:#F59627;
+}
+
+tr td
+{
+	background-color:#F5B870;
+}
+*/
+
+tr:nth-child(even) td:nth-child(odd), 
+tr:nth-child(odd) td:nth-child(even)
+{
+	background-color: #F59627;
+}
+col
+{
+	background-color: #F5B870;
+}
+
+.TableWrap
+{
+	
+	min-width: 600px;
+	max-width: 1500px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+ tr th
+{
+	background-color: white;
+}
